@@ -1,0 +1,9 @@
+{
+    "message": "java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $\nBuild info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'\nSystem info: host: 'ELSLOWL-7035367', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: driver.version: unknown",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "UnknownError",
+        "message": "An unknown server-side error occurred while processing the command.",
+        "orgStatusMessage": "java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $\nBuild info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'\nSystem info: host: 'ELSLOWL-7035367', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: driver.version: unknown"
+    }
+}

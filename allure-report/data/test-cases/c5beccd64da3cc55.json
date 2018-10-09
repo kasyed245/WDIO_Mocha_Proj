@@ -1,0 +1,205 @@
+{
+  "uid" : "c5beccd64da3cc55",
+  "name" : "To check the title and urls of the pages",
+  "fullName" : "SHOP-BUTTON TESTS.To check the title and urls of the pages",
+  "historyId" : "d5d4e6503f0c3e43cb07669aed2120dc",
+  "time" : {
+    "start" : 1538945143025,
+    "stop" : 1538945148915,
+    "duration" : 5890
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/url",
+      "time" : {
+        "start" : 1538945143029,
+        "stop" : 1538945144563,
+        "duration" : 1534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5f1ab6980fb5d38d",
+        "name" : "Request",
+        "source" : "5f1ab6980fb5d38d.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "2d197738b1540ff6",
+        "name" : "Response",
+        "source" : "2d197738b1540ff6.json",
+        "type" : "application/json",
+        "size" : 163
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/title",
+      "time" : {
+        "start" : 1538945144566,
+        "stop" : 1538945144606,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66f9606a2cdc277d",
+        "name" : "Response",
+        "source" : "66f9606a2cdc277d.json",
+        "type" : "application/json",
+        "size" : 179
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element",
+      "time" : {
+        "start" : 1538945146605,
+        "stop" : 1538945147061,
+        "duration" : 456
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5a7734842a79f3e1",
+        "name" : "Request",
+        "source" : "5a7734842a79f3e1.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "832a5c09af3c4e15",
+        "name" : "Response",
+        "source" : "832a5c09af3c4e15.json",
+        "type" : "application/json",
+        "size" : 251
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element/1a6d7998-7a81-4379-95e2-d6343ca1c4af/click",
+      "time" : {
+        "start" : 1538945147061,
+        "stop" : 1538945148804,
+        "duration" : 1743
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f80c722ded10282d",
+        "name" : "Response",
+        "source" : "f80c722ded10282d.json",
+        "type" : "application/json",
+        "size" : 163
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/title",
+      "time" : {
+        "start" : 1538945148805,
+        "stop" : 1538945148846,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28392058d25c895b",
+        "name" : "Response",
+        "source" : "28392058d25c895b.json",
+        "type" : "application/json",
+        "size" : 214
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/url",
+      "time" : {
+        "start" : 1538945148847,
+        "stop" : 1538945148914,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "188b9347f1cb1afa",
+        "name" : "Response",
+        "source" : "188b9347f1cb1afa.json",
+        "type" : "application/json",
+        "size" : 233
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "SHOP-BUTTON TESTS"
+  }, {
+    "name" : "testClass",
+    "value" : "SHOP-BUTTON TESTS"
+  }, {
+    "name" : "testMethod",
+    "value" : "To check the title and urls of the pages"
+  }, {
+    "name" : "package",
+    "value" : "SHOP-BUTTON TESTS"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "internet explorer-"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5beccd64da3cc55.json",
+  "parameterValues" : [ "internet explorer-" ]
+}

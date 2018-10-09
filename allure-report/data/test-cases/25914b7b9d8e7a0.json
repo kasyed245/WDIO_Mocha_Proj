@@ -1,0 +1,178 @@
+{
+  "uid" : "25914b7b9d8e7a0",
+  "name" : "Check the Review is Present..!",
+  "fullName" : "Review Tests.Check the Review is Present..!",
+  "historyId" : "96ebcb7d80f96195cf0e92273f729804",
+  "time" : {
+    "start" : 1538945164326,
+    "stop" : 1538945171372,
+    "duration" : 7046
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $\n                Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'\n                System info: host: 'ELSLOWL-7035367', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\n                Driver info: driver.version: unknown",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at element(\"//a[.=\"See our Vast Robot Selection\"]\") -     at C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\node_modules\\wdio-sync\\build\\index.js:312:3",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $\n                Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'\n                System info: host: 'ELSLOWL-7035367', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\n                Driver info: driver.version: unknown",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at element(\"//a[.=\"See our Vast Robot Selection\"]\") -     at C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\node_modules\\wdio-sync\\build\\index.js:312:3",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/a4f2f02a-5c1e-4031-8229-7bb23b711a1b/url",
+      "time" : {
+        "start" : 1538945164328,
+        "stop" : 1538945170663,
+        "duration" : 6335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cbe9943b0dc558b1",
+        "name" : "Request",
+        "source" : "cbe9943b0dc558b1.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "e2efe58b06910882",
+        "name" : "Response",
+        "source" : "e2efe58b06910882.json",
+        "type" : "application/json",
+        "size" : 163
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a4f2f02a-5c1e-4031-8229-7bb23b711a1b/element",
+      "time" : {
+        "start" : 1538945170666,
+        "stop" : 1538945170677,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e18ac43e7d283dad",
+        "name" : "Request",
+        "source" : "e18ac43e7d283dad.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "a53b763437f7aca6",
+        "name" : "Response",
+        "source" : "a53b763437f7aca6.json",
+        "type" : "application/json",
+        "size" : 962
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/a4f2f02a-5c1e-4031-8229-7bb23b711a1b/screenshot",
+      "time" : {
+        "start" : 1538945170677,
+        "stop" : 1538945171066,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9fa628f3fb9c5a49",
+        "name" : "Response",
+        "source" : "9fa628f3fb9c5a49.json",
+        "type" : "application/json",
+        "size" : 962
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/a4f2f02a-5c1e-4031-8229-7bb23b711a1b/screenshot",
+      "time" : {
+        "start" : 1538945171067,
+        "stop" : 1538945171372,
+        "duration" : 305
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An unknown server-side error occurred while processing the command.\n                    at element(\"//a[.=\"See our Vast Robot Selection\"]\") -     at C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\node_modules\\wdio-sync\\build\\index.js:312:3",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1eca995cf2801b24",
+        "name" : "Screenshot",
+        "source" : "1eca995cf2801b24.png",
+        "type" : "image/png",
+        "size" : 346447
+      }, {
+        "uid" : "79412315fa88fbf6",
+        "name" : "Screenshot",
+        "source" : "79412315fa88fbf6.png",
+        "type" : "image/png",
+        "size" : 346447
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 7,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Review Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Review Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the Review is Present..!"
+  }, {
+    "name" : "package",
+    "value" : "Review Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "internet explorer-"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "25914b7b9d8e7a0.json",
+  "parameterValues" : [ "internet explorer-" ]
+}

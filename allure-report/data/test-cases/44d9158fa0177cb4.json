@@ -1,0 +1,247 @@
+{
+  "uid" : "44d9158fa0177cb4",
+  "name" : "Check the Empty Review Text Error",
+  "fullName" : "Review Tests.Check the Empty Review Text Error",
+  "historyId" : "ab44538218ddf25832438d455bc88d8e",
+  "time" : {
+    "start" : 1538945153679,
+    "stop" : 1538945164321,
+    "duration" : 10642
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves. (C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\test\\reviews.js)",
+  "statusTrace" : "Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves. (C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\test\\reviews.js)\n                    at Test.Runnable._timeoutError (C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\node_modules\\mocha\\lib\\runnable.js:440:10)\n                    at Timeout.<anonymous> (C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\node_modules\\mocha\\lib\\runnable.js:251:24)\n                    at ontimeout (timers.js:475:11)\n                    at tryOnTimeout (timers.js:310:5)\n                    at Timer.listOnTimeout (timers.js:270:5)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves. (C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\test\\reviews.js)",
+    "statusTrace" : "Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves. (C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\test\\reviews.js)\n                    at Test.Runnable._timeoutError (C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\node_modules\\mocha\\lib\\runnable.js:440:10)\n                    at Timeout.<anonymous> (C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\node_modules\\mocha\\lib\\runnable.js:251:24)\n                    at ontimeout (timers.js:475:11)\n                    at tryOnTimeout (timers.js:310:5)\n                    at Timer.listOnTimeout (timers.js:270:5)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/a4f2f02a-5c1e-4031-8229-7bb23b711a1b/url",
+      "time" : {
+        "start" : 1538945153680,
+        "stop" : 1538945154307,
+        "duration" : 627
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71501b7a1b14900a",
+        "name" : "Request",
+        "source" : "71501b7a1b14900a.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "16770b3b4c3445e8",
+        "name" : "Response",
+        "source" : "16770b3b4c3445e8.json",
+        "type" : "application/json",
+        "size" : 163
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a4f2f02a-5c1e-4031-8229-7bb23b711a1b/element",
+      "time" : {
+        "start" : 1538945154310,
+        "stop" : 1538945154331,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be58f697f2e19258",
+        "name" : "Request",
+        "source" : "be58f697f2e19258.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "232cc9830bcf00bb",
+        "name" : "Response",
+        "source" : "232cc9830bcf00bb.json",
+        "type" : "application/json",
+        "size" : 962
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/a4f2f02a-5c1e-4031-8229-7bb23b711a1b/screenshot",
+      "time" : {
+        "start" : 1538945154331,
+        "stop" : 1538945154489,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4d3fc06e0d7a09e",
+        "name" : "Response",
+        "source" : "a4d3fc06e0d7a09e.json",
+        "type" : "application/json",
+        "size" : 251
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a4f2f02a-5c1e-4031-8229-7bb23b711a1b/element/49a3ceec-5b2d-411e-8cf3-87138ee04346/click",
+      "time" : {
+        "start" : 1538945154490,
+        "stop" : 1538945154497,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "45ff4980618868ac",
+        "name" : "Response",
+        "source" : "45ff4980618868ac.json",
+        "type" : "application/json",
+        "size" : 962
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a4f2f02a-5c1e-4031-8229-7bb23b711a1b/element",
+      "time" : {
+        "start" : 1538945154619,
+        "stop" : 1538945155826,
+        "duration" : 1207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7a4c95e2e16d878",
+        "name" : "Request",
+        "source" : "e7a4c95e2e16d878.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "4ee494b9c7cf41b9",
+        "name" : "Response",
+        "source" : "4ee494b9c7cf41b9.json",
+        "type" : "application/json",
+        "size" : 252
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a4f2f02a-5c1e-4031-8229-7bb23b711a1b/element/901fa038-7a51-43e9-a8d2-a8492064c940/clear",
+      "time" : {
+        "start" : 1538945155828,
+        "stop" : 1538945156297,
+        "duration" : 469
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de58be87f31525c0",
+        "name" : "Response",
+        "source" : "de58be87f31525c0.json",
+        "type" : "application/json",
+        "size" : 163
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/a4f2f02a-5c1e-4031-8229-7bb23b711a1b/element/901fa038-7a51-43e9-a8d2-a8492064c940/value",
+      "time" : {
+        "start" : 1538945156297,
+        "stop" : 1538945164321,
+        "duration" : 8024
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves. (C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\test\\reviews.js)\n                    at Test.Runnable._timeoutError (C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\node_modules\\mocha\\lib\\runnable.js:440:10)\n                    at Timeout.<anonymous> (C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\node_modules\\mocha\\lib\\runnable.js:251:24)\n                    at ontimeout (timers.js:475:11)\n                    at tryOnTimeout (timers.js:310:5)\n                    at Timer.listOnTimeout (timers.js:270:5)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ced35cd7feb6eade",
+        "name" : "Request",
+        "source" : "ced35cd7feb6eade.json",
+        "type" : "application/json",
+        "size" : 221
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c358d84aefc3c5c8",
+      "name" : "Response",
+      "source" : "c358d84aefc3c5c8.json",
+      "type" : "application/json",
+      "size" : 462090
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 11,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Review Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Review Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the Empty Review Text Error"
+  }, {
+    "name" : "package",
+    "value" : "Review Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "internet explorer-"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "44d9158fa0177cb4.json",
+  "parameterValues" : [ "internet explorer-" ]
+}

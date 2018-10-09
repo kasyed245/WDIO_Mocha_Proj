@@ -1,0 +1,36 @@
+var webdriverio = require('webdriverio');
+var options = {desiredCapabilities :{browserName : 'chrome'}};
+var client =webdriverio.remote(options);
+
+client
+     .init()
+     .url('http://127.0.0.1:8303/')
+     .getTitle().then(function(title){
+       console.log('Hope Page Title :'+title);
+     })
+     .click('.shop-callout a')
+     .getTitle().then((title)=>{
+       console.log('Shop Page title :'+title);
+     })
+     .getUrl().then((url)=>{
+        console.log('URL :'+url)
+     })
+     .end();
+
+
+// var webdriverio = require('webdriverio');
+// var options = { desiredCapabilities: { browserName: 'chrome' } };
+// var client = webdriverio.remote(options);
+//
+// client
+//     .init()
+//     .url('https://duckduckgo.com/')
+//     .setValue('#search_form_input_homepage', 'WebdriverIO')
+//     .click('#search_button_homepage')
+//     .getTitle().then(function(title) {
+//         console.log('Title is: ' + title);
+//
+//         // outputs:
+//         // "Title is: WebdriverIO (Software) at DuckDuckGo"
+//     })
+//     .end();

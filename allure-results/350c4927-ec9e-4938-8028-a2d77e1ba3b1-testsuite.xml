@@ -1,0 +1,141 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1538945143025' stop='1538945159622'>
+    <name>SHOP-BUTTON TESTS</name>
+    <title>SHOP-BUTTON TESTS</title>
+    <test-cases>
+        <test-case start='1538945143025' status='passed' stop='1538945148915'>
+            <name>To check the title and urls of the pages</name>
+            <title>To check the title and urls of the pages</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='internet explorer-'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":2,"browserName":"internet explorer"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\test\\shop-button.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1538945143029' status='passed' stop='1538945144563'>
+                    <name>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/url</name>
+                    <title>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/url</title>
+                    <attachments>
+                        <attachment title='Request' source='dc8813fc-000d-4bbd-a284-031b346ec881-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='8ff7aa5b-e196-450d-81b3-0e81c0639ce8-attachment.json' type='application/json' size='163'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538945144566' status='passed' stop='1538945144606'>
+                    <name>GET /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/title</name>
+                    <title>GET /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/title</title>
+                    <attachments>
+                        <attachment title='Response' source='de2e2a76-250c-49d4-875c-19df263c9322-attachment.json' type='application/json' size='179'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538945146605' status='passed' stop='1538945147061'>
+                    <name>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element</name>
+                    <title>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5833f389-4394-472a-90d7-8285ce6a24ba-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='24565220-6267-4f76-bb0a-3a677d4cb5ca-attachment.json' type='application/json' size='251'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538945147061' status='passed' stop='1538945148804'>
+                    <name>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element/1a6d7998-7a81-4379-95e2-d6343ca1c4af/click</name>
+                    <title>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element/1a6d7998-7a81-4379-95e2-d6343ca1c4af/click</title>
+                    <attachments>
+                        <attachment title='Response' source='a887820e-b5c3-4ef8-a9d2-71d6771c9a39-attachment.json' type='application/json' size='163'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538945148805' status='passed' stop='1538945148846'>
+                    <name>GET /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/title</name>
+                    <title>GET /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/title</title>
+                    <attachments>
+                        <attachment title='Response' source='3b8bf7df-0ddd-4127-974a-52c1fd68b718-attachment.json' type='application/json' size='214'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538945148847' status='passed' stop='1538945148914'>
+                    <name>GET /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/url</name>
+                    <title>GET /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/url</title>
+                    <attachments>
+                        <attachment title='Response' source='9905b72f-d72b-4ae3-be67-51d19dee8492-attachment.json' type='application/json' size='233'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1538945148915' status='broken' stop='1538945159621'>
+            <name>Check the reviews are being written</name>
+            <title>Check the reviews are being written</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='internet explorer-'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":2,"browserName":"internet explorer"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Personal\\Work\\Javascript\\webdriverio-course-content\\test\\shop-button.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1538945148917' status='passed' stop='1538945149620'>
+                    <name>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/url</name>
+                    <title>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/url</title>
+                    <attachments>
+                        <attachment title='Request' source='bbf17655-936d-4511-baed-712a8b690929-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='7413193b-f5fb-411f-949c-742ff0364050-attachment.json' type='application/json' size='163'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538945149621' status='passed' stop='1538945149931'>
+                    <name>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element</name>
+                    <title>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element</title>
+                    <attachments>
+                        <attachment title='Request' source='24766486-6f59-477a-b65c-4a6155f14b7a-attachment.json' type='application/json' size='80'/>
+                        <attachment title='Response' source='06494a42-c923-495d-8332-09d417383cd5-attachment.json' type='application/json' size='251'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538945149934' status='passed' stop='1538945150210'>
+                    <name>GET /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element/0ad78700-cdf6-4524-9746-0942fe7ed4e7/text</name>
+                    <title>GET /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element/0ad78700-cdf6-4524-9746-0942fe7ed4e7/text</title>
+                    <attachments>
+                        <attachment title='Response' source='a9722cc6-b72d-4df1-bdfd-5e90e83ae340-attachment.json' type='application/json' size='189'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538945150210' status='passed' stop='1538945150338'>
+                    <name>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element</name>
+                    <title>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8e081cbd-e453-46be-870a-b72b02018053-attachment.json' type='application/json' size='80'/>
+                        <attachment title='Response' source='4e8c4e3d-69ba-47a6-b514-c60855492aac-attachment.json' type='application/json' size='251'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1538945150339' status='broken' stop='1538945159621'>
+                    <name>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element/0ad78700-cdf6-4524-9746-0942fe7ed4e7/click</name>
+                    <title>POST /wd/hub/session/aba42652-8ca5-4167-90ce-4b80f5b65d33/element/0ad78700-cdf6-4524-9746-0942fe7ed4e7/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves. (C:\Personal\Work\Javascript\webdriverio-course-content\test\shop-button.js)</message>
+                <stack-trace>Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves. (C:\Personal\Work\Javascript\webdriverio-course-content\test\shop-button.js)
+                    at Test.Runnable._timeoutError (C:\Personal\Work\Javascript\webdriverio-course-content\node_modules\mocha\lib\runnable.js:440:10)
+                    at Timeout.&lt;anonymous> (C:\Personal\Work\Javascript\webdriverio-course-content\node_modules\mocha\lib\runnable.js:251:24)
+                    at ontimeout (timers.js:475:11)
+                    at tryOnTimeout (timers.js:310:5)
+                    at Timer.listOnTimeout (timers.js:270:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
