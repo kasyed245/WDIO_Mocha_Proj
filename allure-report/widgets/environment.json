@@ -1,7 +1,0 @@
-[ {
-  "values" : [ "{\"maxInstances\":2,\"browserName\":\"internet explorer\"}" ],
-  "name" : "capabilities"
-}, {
-  "values" : [ "[\"C:\\\\Personal\\\\Work\\\\Javascript\\\\webdriverio-course-content\\\\test\\\\reviews.js\"]" ],
-  "name" : "spec files"
-} ]
