@@ -1,4 +1,5 @@
 class CommonPage{
+  get BASEURL(){return 'http://www.kevinlamping.com/webdriverio-course-content/';}
   isVisible(selector){
     return browser.isVisible(selector);
   }

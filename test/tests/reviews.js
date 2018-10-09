@@ -1,11 +1,13 @@
 //var assert = require('assert');
-var home = require('./pages/home.page.js');
-var product = require('./pages/product.page.js');
-var common = require('./pages/common.page.js');
+var home = require('./../pages/home.page.js');
+var product = require('./../pages/product.page.js');
+var common = require('./../pages/common.page.js');
 
 describe('Review Tests',function(){
   beforeEach(function(){
-    browser.url('./')
+    browser.deleteCookie();
+    //browser.url('./');
+    browser.url(common.BASEURL);
   });
   // afterEach(function(){
   //   browser.url(baseURL+'/');
