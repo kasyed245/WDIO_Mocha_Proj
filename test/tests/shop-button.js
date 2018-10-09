@@ -38,7 +38,7 @@ describe('SHOP-BUTTON TESTS',function(){
       var ifVisible = common.isVisible(product.reviewLblSelector);
       console.log("ifVisible : "+ifVisible);
      //assert.equal(ifVisible,true);
-     expect(ifVisible).to.equal(false, 'Visible is true..!');
+     expect(ifVisible).to.equal(false, 'Visible is true not false...!');
 
   });
 });
