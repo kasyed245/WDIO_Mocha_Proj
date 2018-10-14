@@ -24,19 +24,19 @@ describe('SHOP-BUTTON TESTS',function(){
   });
 
   it('Check the reviews are being written',function(){
-    // var robotSelectionBttn = $('//a[.="See our Vast Robot Selection"]');
+     // var robotSelectionBttn = $('//a[.="See our Vast Robot Selection"]');
      console.log("Button :"+ home.robotSelectBtn.getText());
      home.robotSelectBtn.click();
-    // browser.pause(2000);
+     // browser.pause(2000);
      // browser.waitUntil(function(){
      //   return browser.getText('#comment-form > h3')=='Add a Review';
      // },2000,'Cannot see the Add Review');
      // var ifExisting =browser.isExisting('#comment-form > h3');
      var ifExisting = common.isExisting(product.reviewLblSelector);
-      console.log("IfExisting : "+ifExisting);
+     console.log("IfExisting : "+ifExisting);
      // var ifVisible = browser.isVisible('#comment-form > h3');
-      var ifVisible = common.isVisible(product.reviewLblSelector);
-      console.log("ifVisible : "+ifVisible);
+     var ifVisible = common.isVisible(product.reviewLblSelector);
+     console.log("ifVisible : "+ifVisible);
      //assert.equal(ifVisible,true);
      expect(ifVisible).to.equal(false, 'Visible is true not false...!');
 

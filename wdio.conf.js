@@ -1,11 +1,13 @@
 console.log('<<<<< wdio.conf.js >>>>');
+let browsersSetup = require('./wdio.browsers.setup');
 //var baseURL='http://127.0.0.1:8303';
 var baseURL='http://www.kevinlamping.com/webdriverio-course-content/';
 // if(process.env.SERVER==='PROD'){
 //   baseURL ='http://www.kevinlamping.com/webdriverio-course-content/';
 // }
 exports.config = {
-
+    seleniumArgs: browsersSetup,
+    seleniumInstallArgs: browsersSetup,
     //
     // ==================
     // Specify Test Files
@@ -48,10 +50,10 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 2,
-        //
-      //  browserName: 'internet explorer'
-        browserName: 'chrome'
+        maxInstances: 1,
+        browserName: 'internet explorer',
+        ignoreProtectedModeSettings: true
+      //  browserName: 'chrome'
       }],
     //
     // ===================
@@ -118,11 +120,11 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone'],
-    // port: '4444',
-    // path: './node_modules/iedriver/bin/',
- // ...
-  //  services: ['iedriver'],
+     services: ['selenium-standalone'],
+     //port: '5555',
+    // path: './node_modules/iedriver/lib/iedriver/IEDriverServer.exe',
+ //
+    //services: ['iedriver'],
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -135,11 +137,11 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: http://webdriver.io/guide/reporters/dot.html
-    reporters: ['junit','allure'],
+    reporters: ['allure'], //'junit',
     reporterOptions : {
-      junit : {
-         outputDir : './JUnit'
-       },
+      // junit : {
+      //    outputDir : './JUnit'
+      //  },
         allure : {
            outputDir : 'allure-results'
          }
@@ -207,8 +209,9 @@ exports.config = {
      * Function to be executed before a test (in Mocha/Jasmine) or a step (in Cucumber) starts.
      * @param {Object} test test details
      */
-    // beforeTest: function (test) {
-    // },
+    beforeTest: function (test) {
+
+    },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)
@@ -225,8 +228,18 @@ exports.config = {
      * Function to be executed after a test (in Mocha/Jasmine) or a step (in Cucumber) ends.
      * @param {Object} test test details
      */
-    // afterTest: function (test) {
-    // },
+    afterTest: function (test) {
+       if(test.passed){
+         return;
+       }
+       var d = new Date();
+       var datetime = d.getDate() + "_"+ (d.getMonth()+1)  + "_" + d.getFullYear()
+                      + "_"+ d.getHours() + "_" + d.getMinutes() + "_" + d.getSeconds();
+       var fileName = encodeURIComponent(test.title.replace(/\s+/g, '-'))+"_"+datetime;
+       var filePath = this.screenshotPath + fileName +'.png';
+       browser.saveScreenshot(filePath);
+       console.log('\n\t Screenshot location:',filePath,'\n');
+    },
     /**
      * Hook that gets executed after the suite has ended
      * @param {Object} suite suite details

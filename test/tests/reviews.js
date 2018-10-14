@@ -22,7 +22,7 @@ describe('Review Tests',function(){
     var errorText=$('p.form-error').getText();
     browser.pause(3000);
     console.log("ErrorText :"+errorText);
-    expect(errorText).to.equal('Please enter a valid email address.','Error Text is not Defined..!');
+    expect(errorText).to.equal('Pleas enter a valid email address.','Error Text is not Defined..!');
   });
 
   it('Check the Empty Review Text Error',function(){

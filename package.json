@@ -23,7 +23,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "selenium-standalone": "^6.15.3",
-    "wdio-allure-reporter": "^0.8.0",
+    "wdio-allure-reporter": "^0.8.2",
     "wdio-dot-reporter": "0.0.10",
     "wdio-iedriver-service": "^0.1.0",
     "wdio-junit-reporter": "^0.4.4",
